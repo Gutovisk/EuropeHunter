@@ -1,0 +1,246 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1619982926.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619982926.json",
+			"portrait": "",
+			"text": "Hey Romeo, what's up?"
+		},
+		{
+			"action": "join",
+			"character": "character-1619898674.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619898674.json",
+			"portrait": "",
+			"text": "Oh man, I hate having to wait for Lilly all day long."
+		},
+		{
+			"character": "character-1619898674.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Have you seen her around?"
+		},
+		{
+			"choice": "Yes I have! But why don’t you tell her your feelings already?",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": " No, I haven’t my friend.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1619898674.json",
+			"portrait": "",
+			"text": "Oh, I have so much to tell her..."
+		},
+		{
+			"character": "character-1619898674.json",
+			"portrait": "",
+			"text": " Wait? Is that Tybald’s gang? Oh no!"
+		},
+		{
+			"action": "join",
+			"character": "character-1619984750.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1619984750.json",
+			"portrait": "",
+			"text": "Well, well, well! Isn’t this Romeo and his strange friend? Still playing your stupid flute?"
+		},
+		{
+			"character": "character-1619898674.json",
+			"portrait": "",
+			"text": "Yes, and I have been doing just fine. I’m going to play in the festival the day after tomorrow."
+		},
+		{
+			"character": "character-1619984750.json",
+			"portrait": "",
+			"text": "Ha! You, playing in the festival? Did you hear that, pals? Romeo Bowl Head is going to play in the festival!"
+		},
+		{
+			"character": "character-1619898674.json",
+			"portrait": "",
+			"text": "Shut up! You idiot! I’ll get you!"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"emit_signal": "Black_Flash"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619898725.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619898725.json",
+			"portrait": "",
+			"text": "You idiots! Fighting again in a public place? Is this the way to behave in front of ladies, gentlemen?"
+		},
+		{
+			"action": "join",
+			"character": "character-1619984750.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1619984750.json",
+			"portrait": "",
+			"text": "I’m sorry, cousin Juliet."
+		},
+		{
+			"character": "character-1619898725.json",
+			"portrait": "",
+			"text": "Go home Tybald! As for you, Romeo!"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1619984750.json"
+		},
+		{
+			"action": "join",
+			"character": "character-1619898674.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619898674.json",
+			"portrait": "",
+			"text": "Cut that out, General Juliet! I hate you!"
+		},
+		{
+			"character": "character-1619898725.json",
+			"portrait": "",
+			"text": "Shame on you! I hate you too!"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"emit_signal": "Black_Flash"
+		},
+		{
+			"action": "join",
+			"character": "character-1619982950.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619982950.json",
+			"portrait": "",
+			"text": "What a shame romeo! Another fight with the Capulets? We have to talk, honey. "
+		},
+		{
+			"character": "character-1619982950.json",
+			"portrait": "",
+			"text": "Our family and the Capulet’s have arranged a wedding  between you and Juliet. I now this may be shocking, but you have to get used to this idea."
+		},
+		{
+			"action": "join",
+			"character": "character-1619898674.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619898674.json",
+			"portrait": "",
+			"text": "Are you out of your mind mom? I can’t get married yet! I’m too young and I also hate Juliet! This can’t be true! I don’t want to talk to you anymore!"
+		},
+		{
+			"character": "character-1619982950.json",
+			"portrait": "",
+			"text": "Romeo…"
+		},
+		{
+			"close_dialog": "",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619984908.json",
+		"name": "Primeira_Cena"
+	}
+}

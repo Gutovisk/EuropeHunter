@@ -1,0 +1,168 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1619983120.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1619983120.json",
+			"portrait": "",
+			"text": "Ok, well, considering your situation we can try something radical. You both can pretend you’re dead. Maybe then you can touch your parents’ heart."
+		},
+		{
+			"action": "join",
+			"character": "character-1619898674.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619898674.json",
+			"portrait": "",
+			"text": "How can we do that?"
+		},
+		{
+			"character": "character-1619983120.json",
+			"portrait": "",
+			"text": " I have a secret beverage. If you drink a small dose of it you’ll fall asleep. You look dead for twelve hours."
+		},
+		{
+			"action": "join",
+			"character": "character-1619898725.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619898725.json",
+			"portrait": "",
+			"text": "I think I read a story very similar to this, which turned out to be the most famous love tragedy. "
+		},
+		{
+			"character": "character-1619898725.json",
+			"portrait": "",
+			"text": "That’s not a good idea. What if something goes wrong? I’m too young to die!"
+		},
+		{
+			"character": "character-1619898674.json",
+			"portrait": "",
+			"text": "We don’t have much time, Friar. The festival starts tomorrow and we have a long way to go!"
+		},
+		{
+			"character": "character-1619983120.json",
+			"portrait": "",
+			"text": "Humm… I have a better idea! You’re going to run away. Leave for your festival and stay there for a few days. "
+		},
+		{
+			"character": "character-1619983120.json",
+			"portrait": "",
+			"text": "When you come back, everything will be different!"
+		},
+		{
+			"character": "character-1619898725.json",
+			"portrait": "",
+			"text": " What are you going to do?"
+		},
+		{
+			"character": "character-1619983120.json",
+			"portrait": "",
+			"text": " Don’t worry. I have a plan. I’ll talk to Juliet’s nanny, and we’ll take care of everything."
+		},
+		{
+			"character": "character-1619983120.json",
+			"portrait": "",
+			"text": "Now take my carriage and go to your festival!"
+		},
+		{
+			"character": "character-1619983120.json",
+			"portrait": "",
+			"text": "Oh! And you, Romeo’s friend, don’t talk about this to anyone! If their parents find out what really happened, they’re going to be upset."
+		},
+		{
+			"action": "join",
+			"character": "character-1619982926.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619983120.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Would you promise to keep it as a secret?"
+		},
+		{
+			"choice": "Ok, I’ll keep it as a secret!",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1619983120.json",
+			"portrait": "",
+			"text": "Thanks for your understanding! This plan will work my kids, believe me."
+		},
+		{
+			"choice": " I’ll think about it.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1619898674.json",
+			"portrait": "",
+			"text": "Please, my friend, that’s the only way to make me happy!"
+		},
+		{
+			"character": "character-1619982926.json",
+			"portrait": "",
+			"text": "OK Romeo, I’ll keep it as a secret."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1619983120.json",
+			"portrait": "",
+			"text": "Ok kids, you have to go. It’s time!"
+		},
+		{
+			"close_dialog": "",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619988224.json",
+		"name": "Quarta_Cena"
+	}
+}
