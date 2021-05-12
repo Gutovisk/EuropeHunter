@@ -16,7 +16,12 @@ animations = [ {
 }, {
 "frames": [  ],
 "loop": true,
-"name": "New Anim",
+"name": "Parado_Esquerda",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "Parado_Cima",
 "speed": 5.0
 }, {
 "frames": [  ],
@@ -27,11 +32,6 @@ animations = [ {
 "frames": [  ],
 "loop": true,
 "name": "Parado_Baixo",
-"speed": 5.0
-}, {
-"frames": [  ],
-"loop": true,
-"name": "Parado_Esquerda",
 "speed": 5.0
 } ]
 
