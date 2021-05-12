@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Jogador.gd" type="Script" id=1]
+[ext_resource path="res://Jogador/Jogador.gd" type="Script" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
 
 [sub_resource type="CapsuleShape2D" id=1]
@@ -11,17 +11,17 @@ height = 4.0
 animations = [ {
 "frames": [  ],
 "loop": true,
+"name": "Parado_Direita",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
 "name": "New Anim",
 "speed": 5.0
 }, {
 "frames": [  ],
 "loop": true,
 "name": "Parado_Cima",
-"speed": 5.0
-}, {
-"frames": [  ],
-"loop": true,
-"name": "Parado_Direita",
 "speed": 5.0
 }, {
 "frames": [  ],
