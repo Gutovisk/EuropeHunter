@@ -3,7 +3,7 @@ extends KinematicBody2D
 #Variaveis de movimento:
 var direcao   : Vector2     = Vector2()
 var movimento : Vector2     = Vector2()
-export (int) var velocidade = 100
+export (int) var velocidade = 300
 export (int) var aceleracao = 20
 
 #Variaveis de animacao:
