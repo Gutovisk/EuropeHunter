@@ -1,0 +1,184 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Jogador/Jogador.tscn" type="PackedScene" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://Area/Area.tscn" type="PackedScene" id=3]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.713726, 0.701961, 0.701961, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.478431, 0.113725, 0.0196078, 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.054902, 0.160784, 0.733333, 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.121569, 0.498039, 0.231373, 1 )
+
+[node name="Mundo" type="Node2D"]
+
+[node name="Modelo_Cidade" type="Node2D" parent="."]
+
+[node name="Posicao_Castelo_Julieta" type="Label" parent="Modelo_Cidade"]
+margin_right = 1024.0
+margin_bottom = 704.0
+custom_styles/normal = SubResource( 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "CASTELO"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Posicao_Casa_Friar" type="Label" parent="Modelo_Cidade"]
+margin_left = -160.0
+margin_top = 832.0
+margin_bottom = 992.0
+custom_styles/normal = SubResource( 2 )
+text = "Casa do Friar"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Posicao_Castelo_Romeu" type="Label" parent="Modelo_Cidade"]
+margin_left = 184.0
+margin_top = 2240.0
+margin_right = 1208.0
+margin_bottom = 2944.0
+custom_styles/normal = SubResource( 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "CASTELO"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Posicao_Praca" type="Label" parent="Modelo_Cidade"]
+margin_left = -160.0
+margin_top = 1024.0
+margin_right = 544.0
+margin_bottom = 1728.0
+custom_styles/normal = SubResource( 3 )
+text = "Praça"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Casa_1" type="Label" parent="Modelo_Cidade"]
+margin_left = -352.0
+margin_top = 1024.0
+margin_right = -192.0
+margin_bottom = 1184.0
+custom_styles/normal = SubResource( 2 )
+text = "Casa_1"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Casa_2" type="Label" parent="Modelo_Cidade"]
+margin_left = 32.0
+margin_top = 832.0
+margin_right = 192.0
+margin_bottom = 992.0
+custom_styles/normal = SubResource( 2 )
+text = "Casa_2
+"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Casa_3" type="Label" parent="Modelo_Cidade"]
+margin_left = 224.0
+margin_top = 832.0
+margin_right = 384.0
+margin_bottom = 992.0
+custom_styles/normal = SubResource( 2 )
+text = "Casa_3"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Casa_4" type="Label" parent="Modelo_Cidade"]
+margin_left = 416.0
+margin_top = 832.0
+margin_right = 576.0
+margin_bottom = 992.0
+custom_styles/normal = SubResource( 2 )
+text = "Casa_4"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Casa_5" type="Label" parent="Modelo_Cidade"]
+margin_left = 576.0
+margin_top = 1088.0
+margin_right = 736.0
+margin_bottom = 1248.0
+custom_styles/normal = SubResource( 2 )
+text = "Casa_5"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Fundo_Preto" type="ColorRect" parent="Modelo_Cidade"]
+margin_left = 3880.0
+margin_top = 3064.0
+margin_right = 6888.0
+margin_bottom = 5240.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Interior_Casa_Friar" type="Label" parent="Modelo_Cidade"]
+margin_left = 4480.0
+margin_top = 3360.0
+margin_right = 4640.0
+margin_bottom = 3520.0
+custom_styles/normal = SubResource( 2 )
+text = "Interior da casa do Friar"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Interior_Castelo" type="Label" parent="Modelo_Cidade"]
+margin_left = 5256.0
+margin_top = 4400.0
+margin_right = 5776.0
+margin_bottom = 4656.0
+custom_styles/normal = SubResource( 4 )
+text = "Interior do castelo"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Friar" type="Sprite" parent="Modelo_Cidade"]
+position = Vector2( 4528, 3464 )
+scale = Vector2( 0.250002, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Area" parent="Modelo_Cidade" instance=ExtResource( 3 )]
+position = Vector2( 208.778, 13.4695 )
+type = "DOOR"
+pathto = "res://Jogador/Jogador.tscn"
+
+[node name="Jogador" parent="." instance=ExtResource( 1 )]
