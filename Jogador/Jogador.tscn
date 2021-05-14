@@ -16,22 +16,17 @@ animations = [ {
 }, {
 "frames": [  ],
 "loop": true,
+"name": "Parado_Baixo",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
 "name": "Parado_Esquerda",
 "speed": 5.0
 }, {
 "frames": [  ],
 "loop": true,
 "name": "Parado_Cima",
-"speed": 5.0
-}, {
-"frames": [  ],
-"loop": true,
-"name": "Parado_Cima",
-"speed": 5.0
-}, {
-"frames": [  ],
-"loop": true,
-"name": "Parado_Baixo",
 "speed": 5.0
 } ]
 
@@ -47,7 +42,6 @@ zoom = Vector2( 0.5, 0.5 )
 
 [node name="Animacao" type="AnimatedSprite" parent="."]
 frames = SubResource( 2 )
-animation = "New Anim"
 
 [node name="Imagem_Teste" type="Sprite" parent="."]
 scale = Vector2( 0.25, 0.5 )

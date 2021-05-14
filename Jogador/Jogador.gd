@@ -31,6 +31,8 @@ func _physics_process(delta):
 			#A direcao do olhar recebe a direcao de movimento mais um, dividido por dois, referente as direcoes de olhar do dicionario.
 	movimento = movimento.linear_interpolate(direcao * velocidade, aceleracao * delta)
 	move_and_slide(movimento)
+	
+	
 	#Animacao:
 #	if direcao != Vector2():
 		#Se direcao for diferente de um vetor vazio:

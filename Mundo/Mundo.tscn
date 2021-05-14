@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Jogador/Jogador.tscn" type="PackedScene" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://Area/Area.tscn" type="PackedScene" id=3]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.713726, 0.701961, 0.701961, 1 )
@@ -174,5 +175,10 @@ __meta__ = {
 position = Vector2( 4528, 3464 )
 scale = Vector2( 0.250002, 0.5 )
 texture = ExtResource( 2 )
+
+[node name="Area" parent="Modelo_Cidade" instance=ExtResource( 3 )]
+position = Vector2( 208.778, 13.4695 )
+type = "DOOR"
+pathto = "res://Jogador/Jogador.tscn"
 
 [node name="Jogador" parent="." instance=ExtResource( 1 )]
