@@ -16,7 +16,7 @@
 		{
 			"character": "character-1619982926.json",
 			"portrait": "",
-			"text": "You don’t look really well. What happened?"
+			"text": "You don't look really well. What happened?"
 		},
 		{
 			"action": "join",
@@ -34,17 +34,17 @@
 		{
 			"character": "character-1619898674.json",
 			"portrait": "",
-			"text": "Mom told me that I’ll get married to Juliet. I can’t understand that girl! She will beat me up every single day of my life! God help me!"
+			"text": "Mom told me that I'll get married to Juliet. I can't understand that girl! She will beat me up every single day of my life! God help me!"
 		},
 		{
 			"character": "character-1619982926.json",
 			"portrait": "",
-			"text": "Well, I don’t think you should have so much hate in your heart, but well, at least you’ll get to see Lilly in the masked ball tonight, remember?"
+			"text": "Well, I don't think you should have so much hate in your heart, but well, at least you'll get to see Lilly in the masked ball tonight, remember?"
 		},
 		{
 			"character": "character-1619898674.json",
 			"portrait": "",
-			"text": "That’s right! I’ll go there! This may be my chance to approach and talk to her!"
+			"text": "That's right! I'll go there! This may be my chance to approach and talk to her!"
 		},
 		{
 			"close_dialog": "",
@@ -52,7 +52,7 @@
 		}
 	],
 	"metadata": {
-		"dialogic-version": "",
+		"dialogic-version": "1.2",
 		"file": "timeline-1619986503.json",
 		"name": "Segunda_Cena"
 	}

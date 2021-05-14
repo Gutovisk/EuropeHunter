@@ -45,13 +45,13 @@
 			"question": "Have you seen her around?"
 		},
 		{
-			"choice": "Yes I have! But why don’t you tell her your feelings already?",
+			"choice": "Yes I have! But why don't you tell her your feelings already?",
 			"condition": "",
 			"definition": "",
 			"value": ""
 		},
 		{
-			"choice": " No, I haven’t my friend.",
+			"choice": " No, I haven't my friend.",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -67,7 +67,7 @@
 		{
 			"character": "character-1619898674.json",
 			"portrait": "",
-			"text": " Wait? Is that Tybald’s gang? Oh no!"
+			"text": " Wait? Is that Tybald's gang? Oh no!"
 		},
 		{
 			"action": "join",
@@ -85,12 +85,12 @@
 		{
 			"character": "character-1619984750.json",
 			"portrait": "",
-			"text": "Well, well, well! Isn’t this Romeo and his strange friend? Still playing your stupid flute?"
+			"text": "Well, well, well! Isn't this Romeo and his strange friend? Still playing your stupid flute?"
 		},
 		{
 			"character": "character-1619898674.json",
 			"portrait": "",
-			"text": "Yes, and I have been doing just fine. I’m going to play in the festival the day after tomorrow."
+			"text": "Yes, and I have been doing just fine. I'm going to play in the festival the day after tomorrow."
 		},
 		{
 			"character": "character-1619984750.json",
@@ -100,7 +100,7 @@
 		{
 			"character": "character-1619898674.json",
 			"portrait": "",
-			"text": "Shut up! You idiot! I’ll get you!"
+			"text": "Shut up! You idiot! I'll get you!"
 		},
 		{
 			"action": "leaveall",
@@ -146,7 +146,7 @@
 		{
 			"character": "character-1619984750.json",
 			"portrait": "",
-			"text": "I’m sorry, cousin Juliet."
+			"text": "I'm sorry, cousin Juliet."
 		},
 		{
 			"character": "character-1619898725.json",
@@ -208,7 +208,7 @@
 		{
 			"character": "character-1619982950.json",
 			"portrait": "",
-			"text": "Our family and the Capulet’s have arranged a wedding  between you and Juliet. I now this may be shocking, but you have to get used to this idea."
+			"text": "Our family and the Capulet's have arranged a wedding  between you and Juliet. I now this may be shocking, but you have to get used to this idea."
 		},
 		{
 			"action": "join",
@@ -226,7 +226,7 @@
 		{
 			"character": "character-1619898674.json",
 			"portrait": "",
-			"text": "Are you out of your mind mom? I can’t get married yet! I’m too young and I also hate Juliet! This can’t be true! I don’t want to talk to you anymore!"
+			"text": "Are you out of your mind mom? I can't get married yet! I'm too young and I also hate Juliet! This can't be true! I don't want to talk to you anymore!"
 		},
 		{
 			"character": "character-1619982950.json",
@@ -239,7 +239,7 @@
 		}
 	],
 	"metadata": {
-		"dialogic-version": "",
+		"dialogic-version": "1.2",
 		"file": "timeline-1619984908.json",
 		"name": "Primeira_Cena"
 	}
